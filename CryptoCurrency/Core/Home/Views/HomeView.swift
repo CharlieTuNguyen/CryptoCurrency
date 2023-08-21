@@ -5,6 +5,10 @@ struct HomeView: View {
         NavigationStack {
             ScrollView(.vertical, showsIndicators: false) {
                 TopMoversView()
+                
+                Divider()
+                
+                AllCoinsView()
             }
             .navigationTitle("Live Prices")
         }
