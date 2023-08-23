@@ -1,7 +1,7 @@
 import Foundation
 
 // MARK: - Coin
-struct Coin: Codable {
+struct Coin: Codable, Identifiable {
     let id, symbol, name: String
     let image: String
     let currentPrice: Double
